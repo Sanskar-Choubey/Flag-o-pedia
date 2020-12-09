@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Prata&display=swap");
+
+:root {
+  --main-color: #f1f1f1;
+  --secondary-color: #fdb827;
+  --tertiary-color: #21209c;
+  --background: #fde68a;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--background);
+  height: 100vh;
+}
+
+.heading {
+  font-family: "Prata";
+  background-color: var(--secondary-color);
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: "block";
+  max-width: 600px;
+  margin: auto;
+}
+.para {
+  background-color: var(--tertiary-color);
+  color: white;
+  max-width: 450px;
+  margin: auto;
+  display: block;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  font-family: "Castoro";
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+hr {
+  max-width: 10rem;
+  color: var(--secondary-color);
+}
+
+.input-field {
+  border: 1px solid var(--secondary-color);
+  border-radius: 10rem;
+  margin-bottom: 2rem;
+}
+
+.output-field {
+  border: 1 px solid var(--tertiary-color);
+  padding: 1rem;
+  font-family: "Castoro";
+  background-color: var(--secondary-color);
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  max-width: 300px;
+  color: var(--tertiary-color);
+}
+.sec-heading {
+  background-color: var(--tertiary-color);
+  color: white;
+  font-family: "Castoro";
+  padding: 0.5rem;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.span-tag {
+  display: inline;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
