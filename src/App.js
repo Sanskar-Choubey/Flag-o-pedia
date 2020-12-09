@@ -10,7 +10,10 @@ var emojiDictionary = {
   "🇫🇷": "France",
   "🇮🇱": "Israel",
   "🇮🇳": "India",
-  "🇰🇿": "Kazakhstan"
+  "🇰🇿": "Kazakhstan",
+  "🇮🇸": "Iceland",
+  "🇻🇳": "Vietnam",
+  "🇺🇸": "United States"
 };
 
 var knownFlags = Object.keys(emojiDictionary);
